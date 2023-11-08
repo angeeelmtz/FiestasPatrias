@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    color: #fff;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(PanamaViejoArcheologicalSitePanamacity.jpg);
+    background-size: contain;
+    
+}
+
+span{
+    color: red;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.titulo{
+    font-size: 48px;
+    color: blue;
+}
+
+.titulo span{
+    color: red;
+}
+
+.autor{
+    font-size: 30px;
+    color: blue;
+}
+
+.seccion1{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-lista{
+    color: red;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.titulo-sec1{
+    font-size: 24px;
+    color: red;
+}
+
+.titulo-sec2{
+    color: blue;
+    font-size: 24px;
+}
+
+.nov03{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-nov03, .titulo-05, .titulo-28{
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.titulo-04, .titulo-10{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.boton-azul{
+    width: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.boton-azul:hover{
+    background-color: red;
+}
+
+.boton-rojo{
+    width: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: red;
+    text-decoration: none;
+}
+
+.boton-rojo:hover{
+    background-color: blue;
+}
+
+ul{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+ul p{
+    font-size: 16px;
+}
+
+.rojo{
+    color: red;
+}
+
+.azul{
+    color: blue;
+}
